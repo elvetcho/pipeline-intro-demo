@@ -1,4 +1,4 @@
-#!C:\Users\jenkins\users\admin\cygwin\bin\sh.exe
+#!/usr/bin/env bash
 git clean -xfd
 env
 mvn -B -DskipTests clean package
