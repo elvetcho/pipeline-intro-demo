@@ -3,13 +3,13 @@ pipeline {
   stages {
     stage('Buzz Build') {
       steps {
-        sh './jenkins/build.sh'
+        sh 'sleep 5'
         sh ' echo Success!'
       }
     }
     stage('Buzz Test') {
       steps {
-        sh './jenkins/test-all.sh'
+        sh 'echo en cours'
       }
     }
     stage('Fluffy Deploy') {
