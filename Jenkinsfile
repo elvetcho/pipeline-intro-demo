@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Buzz Build') {
       steps {
-        sh './jenkins/build.sh'
+        sh 'sleep 5'
         sh ' echo Success!'
       }
     }
